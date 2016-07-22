@@ -1,0 +1,194 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../sass/pages/_bios.scss */
+body {
+  background-attachment: fixed;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+/* line 9, ../sass/pages/_bios.scss */
+#header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+/* line 16, ../sass/pages/_bios.scss */
+#header #logo {
+  width: 55px;
+  height: 70px;
+  padding-right: 10px;
+}
+/* line 21, ../sass/pages/_bios.scss */
+#header #Title {
+  background-color: #333333;
+  z-index: 2;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid black 3px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+/* line 34, ../sass/pages/_bios.scss */
+#header #titles {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  margin-top: -10px;
+  letter-spacing: 1px;
+}
+
+/* line 45, ../sass/pages/_bios.scss */
+#background {
+  margin-top: 100px;
+  z-index: -1;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+/* line 54, ../sass/pages/_bios.scss */
+#background .brother {
+  opacity: 1;
+  display: inline-block;
+  background-color: blue;
+  height: 250px;
+  width: 200px;
+  margin: 20px;
+  vertical-align: top;
+}
+/* line 64, ../sass/pages/_bios.scss */
+#background span {
+  font-size: 30px;
+}
+/* line 68, ../sass/pages/_bios.scss */
+#background img {
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
+  border-radius: 50%;
+}
+
+/* line 77, ../sass/pages/_bios.scss */
+#brother-bio-background {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  z-index: 5;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s;
+}
+
+/* line 91, ../sass/pages/_bios.scss */
+.brother-bio {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 150px;
+  bottom: 80px;
+  background-color: white;
+  width: 0%;
+  transition: all 1s;
+  z-index: 6;
+  overflow: hidden;
+}
+/* line 103, ../sass/pages/_bios.scss */
+.brother-bio .brother-bio-inner {
+  padding: 40px;
+  overflow: hidden;
+}
+/* line 106, ../sass/pages/_bios.scss */
+.brother-bio .brother-bio-inner img {
+  width: 200px;
+  height: 200px;
+}
+/* line 110, ../sass/pages/_bios.scss */
+.brother-bio .brother-bio-inner i {
+  opacity: 0;
+  transition: opacity 1s;
+  float: right;
+  transform: scale(3);
+}
+/* line 116, ../sass/pages/_bios.scss */
+.brother-bio .brother-bio-inner i:hover {
+  transform: scale(3.2);
+}

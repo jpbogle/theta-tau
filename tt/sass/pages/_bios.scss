@@ -1,0 +1,120 @@
+
+body {
+  //background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+#header {
+  width: 100%;
+  height: 100px;
+  position:fixed;
+  top:0;
+  z-index: 10;
+
+  #logo {
+    width:55px;
+    height: 70px;
+    padding-right: 10px;
+  }
+  #Title{
+    background-color:#333333;
+    z-index: 2;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 3px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  }
+  #titles{
+    color: white;
+    font-size: 20px;
+    display:inline-block;
+    text-align: center;
+    margin-top:-10px;
+    letter-spacing: 1px;
+  }
+
+}
+
+#background {
+  margin-top:100px;
+  z-index: -1;
+  background-color: rgba(255,255,255,0.7);
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+
+  .brother {
+    opacity: 1;
+    display:inline-block;
+    background-color: blue;
+    height:250px;
+    width: 200px;
+    margin: 20px;
+    vertical-align: top
+  }
+
+  span {
+    font-size: 30px;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+    border-radius: 50%;
+
+  }
+}
+
+#brother-bio-background {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  z-index: 5;
+  text-align: center;
+  opacity:0;
+  visibility: hidden;
+  transition: all .5s;
+
+}
+.brother-bio {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 150px;
+  bottom: 80px;
+  background-color: white;
+  width: 0%;
+  transition: all 1s;
+  z-index: 6;
+  overflow:hidden;
+
+  .brother-bio-inner {
+    padding: 40px;
+    overflow: hidden;
+    img {
+      width: 200px;
+      height: 200px;
+    }
+    i {
+      opacity: 0;
+      transition: opacity 1s;
+      float: right;
+      transform: scale(3);
+    }
+    i:hover {
+      transform: scale(3.2);
+    }
+  }
+}
