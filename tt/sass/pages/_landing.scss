@@ -1,0 +1,213 @@
+/*
+Red=#8B0000
+Gold=#FFCC33
+DarkGray=#333333
+LighGray=#999999
+offwhite=#EDEAB5
+*/
+#landing {
+  /*
+  Red=#800000
+  Gold=#e7b000
+  DarkGray=#333333
+  LighGray=#999999
+  */
+  font-family: Tahoma, Arial, Cambria, "Times New Roman";
+  font-weight: 300;
+
+  #screen{
+    z-index: -1;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+  }
+  #screen:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content:"";
+    opacity: .75;
+    background-image: url('../../img/boston.png');
+    background-size: cover;
+  }
+
+  #Title{
+    z-index: 2;
+    background-color: rgba(127,127,127,.8);
+    /*background-color: #999999;*/
+    width: 450px;
+    height: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 3px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+
+  #logo {
+    width:60px;
+    height: 87px;
+    padding-right: 10px;
+  }
+
+  #titles{
+    font-size: 54px;
+    font-weight: 200;
+    display:inline-block;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  #subtitle{
+    font-size: 23px;
+    display:block;
+    letter-spacing: 2px;
+  }
+  #brotherhood {
+    position: relative;
+    right: 175px;
+    top: 80px;
+
+    #brotherhood-title {
+      text-decoration: none;
+      color: #FFCC33;
+      background-color: #800000;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      font-size: 30px;
+      z-index: 100;
+      position: absolute;
+      letter-spacing: 3px;
+      border: solid black 2px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    #brodrop {
+      width: 150px;
+      position: absolute;
+      left: 30px;
+      top: 48px;
+    }
+  }
+
+
+  #service {
+    position: relative;
+    bottom: 70px;
+    left: 40px;
+
+    #service-title {
+      text-decoration: none;
+      color: #FFCC33;
+      background-color: #800000;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      font-size: 30px;
+      z-index: 100;
+      position: absolute;
+      letter-spacing: 3px;
+      position: absolute;
+      border: solid black 2px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    #servicedrop {
+      width: 125px;
+      position: absolute;
+      bottom:1px;
+      left: 3px;
+    }
+  }
+  #prof {
+    position: relative;
+    //left: 30%;
+    bottom: 120px;
+    right: 630px;
+
+    #prof-title {
+      text-decoration: none;
+      color: #FFCC33;
+      background-color: #8B0000;
+      padding-left:40px;
+      padding-right: 40px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      font-size: 30px;
+      z-index: 3;
+      position: absolute;
+      letter-spacing: 1px;
+      left: 15%;
+      top: 32%;
+      border: solid black 2px;
+      display: inline-block;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      width:366px;
+    }
+    #profdrop {
+      width: 175px;
+      position: absolute;
+      top:48px;
+      left:30px;
+
+    }
+  }
+
+  .link, #Title, .dropdown {
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+  }
+  .link:hover {
+    transform: scale(1.03);
+    color: #FFCC33;
+  }
+
+  .dropdown {
+    z-index: 101;
+    opacity: 0;
+    background-color: #999999;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 15px;
+    color: black;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 450;
+    outline: black solid 1px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+
+
+  .dropdown span {
+    display: block;
+  }
+
+  .link:hover+div{
+    opacity: 1;
+    transition: 1;
+  }
+
+  .dropdown:hover {
+    opacity: 1;
+  }
+
+  .dropdown span:hover {
+    color: #e7b000;
+  }
+}
