@@ -8,8 +8,15 @@ $(document).on('click', '.brother', function() {
     $('#brother-bio-background').css('opacity', '1');
 });
 
-$(document).on('click', '#x', function() {
+$(document).on('click', '.x', function() {
     $('.brother-bio').css('width','0%');
     $('#brother-bio-background').css('visibility', 'hidden');
-    $('#brother-bio-background, #x').css('opacity', '0');
+    $('#brother-bio-background, .x').css('opacity', '0');
+});
+
+
+$( document ).ready(function() {
+    $( "#background" ).accordion({
+        collapsible: true
+    });
 });
