@@ -130,33 +130,38 @@ body {
   font-size: 50px;
   padding-bottom: 15px;
   padding-top: 20px;
-  border-bottom: 3px solid #8B0000;
+  border-bottom: 3px solid black;
   width: 90%;
   letter-spacing: 5px;
 }
-/* line 65, ../sass/pages/_bios.scss */
+/* line 66, ../sass/pages/_bios.scss */
 #background .brother {
   opacity: 1;
   display: inline-block;
   width: 200px;
-  margin: 20px;
+  margin: 10px;
   vertical-align: top;
 }
-/* line 74, ../sass/pages/_bios.scss */
+/* line 75, ../sass/pages/_bios.scss */
 #background .name {
-  padding-top: 10px;
+  padding-top: 13px;
   font-size: 20px;
   height: 70px;
 }
-/* line 80, ../sass/pages/_bios.scss */
+/* line 81, ../sass/pages/_bios.scss */
 #background img {
   width: 200px;
   height: 200px;
   padding-top: 10px;
   border-radius: 50%;
+  transition: all 0.2s;
+}
+/* line 88, ../sass/pages/_bios.scss */
+#background img:hover {
+  transform: scale(1.03);
 }
 
-/* line 89, ../sass/pages/_bios.scss */
+/* line 93, ../sass/pages/_bios.scss */
 #brother-bio-background {
   left: 0;
   right: 0;
@@ -171,7 +176,7 @@ body {
   transition: all .5s;
 }
 
-/* line 103, ../sass/pages/_bios.scss */
+/* line 107, ../sass/pages/_bios.scss */
 .brother-bio {
   position: fixed;
   left: 50%;
@@ -184,39 +189,40 @@ body {
   z-index: 6;
   overflow: hidden;
 }
-/* line 115, ../sass/pages/_bios.scss */
+/* line 119, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner {
   overflow: hidden;
 }
-/* line 118, ../sass/pages/_bios.scss */
+/* line 122, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .top {
   height: 200px;
   background-color: rgba(153, 153, 153, 0.4);
 }
-/* line 122, ../sass/pages/_bios.scss */
+/* line 126, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .top img {
   position: absolute;
   width: 200px;
   height: 200px;
 }
-/* line 127, ../sass/pages/_bios.scss */
+/* line 131, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .top .infoblock {
   margin-left: 230px;
   padding-top: 10px;
 }
-/* line 130, ../sass/pages/_bios.scss */
+/* line 134, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .top .infoblock .info {
+  font-size: 18px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 135, ../sass/pages/_bios.scss */
+/* line 140, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .top .header {
   height: 50px;
   margin-left: 230px;
   margin-right: 80px;
   border-bottom: 2px #8B0000 solid;
 }
-/* line 140, ../sass/pages/_bios.scss */
+/* line 145, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .top .header .name {
   padding-top: 13px;
   font-size: 30px;
@@ -224,7 +230,7 @@ body {
   color: #8B0000;
   width: 50%;
 }
-/* line 147, ../sass/pages/_bios.scss */
+/* line 152, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .top .header .icons {
   height: 100%;
   padding-top: 5px;
@@ -233,17 +239,17 @@ body {
   text-align: right;
   float: left;
 }
-/* line 155, ../sass/pages/_bios.scss */
+/* line 160, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .top .header .icons i {
   margin: 15px;
   transform: scale(2.5);
   display: inline-block;
 }
-/* line 164, ../sass/pages/_bios.scss */
+/* line 169, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .bottom {
   padding-left: 20px;
 }
-/* line 166, ../sass/pages/_bios.scss */
+/* line 171, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .bottom .bio-title {
   color: #8B0000;
   padding-top: 10px;
@@ -252,14 +258,14 @@ body {
   margin-right: 80px;
   border-bottom: 2px #8B0000 solid;
 }
-/* line 174, ../sass/pages/_bios.scss */
+/* line 179, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .bottom .bio {
   padding-right: 15px;
   padding-top: 5px;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 160%;
 }
-/* line 181, ../sass/pages/_bios.scss */
+/* line 186, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .x {
   opacity: 0;
   transition: opacity 1s;
@@ -268,13 +274,13 @@ body {
   right: 40px;
   transform: scale(3);
 }
-/* line 190, ../sass/pages/_bios.scss */
+/* line 195, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .x:hover {
   transform: scale(3.2);
   color: #8B0000;
 }
 
-/* line 198, ../sass/pages/_bios.scss */
+/* line 203, ../sass/pages/_bios.scss */
 .ui-accordion-content-active {
   padding: 0 !important;
   border-style: none;

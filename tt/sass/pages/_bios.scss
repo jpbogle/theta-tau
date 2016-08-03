@@ -52,13 +52,14 @@ body {
   margin-right: auto;
   text-align:center;
   .class-header {
+    //color: #8B0000;
     margin-left:auto;
     margin-right:auto;
     text-align: left;
     font-size: 50px;
     padding-bottom:15px;
     padding-top:20px;
-    border-bottom:3px solid #8B0000;
+    border-bottom:3px solid black;
     width:90%;
     letter-spacing: 5px;
   }
@@ -67,12 +68,12 @@ body {
     display:inline-block;
     //background-color: blue;
     width: 200px;
-    margin: 20px;
+    margin: 10px;
     vertical-align: top
   }
 
   .name {
-    padding-top:10px;
+    padding-top:13px;
     font-size: 20px;
     height:70px;
   }
@@ -82,7 +83,10 @@ body {
     height: 200px;
     padding-top: 10px;
     border-radius: 50%;
-
+    transition:all .2s
+  }
+  img:hover {
+    transform:scale(1.03);
   }
 }
 
@@ -128,6 +132,7 @@ body {
         margin-left: 230px;
         padding-top: 10px;
         .info {
+          font-size: 18px;
           padding-top: 5px;
           padding-bottom: 5px;
         }
@@ -174,7 +179,7 @@ body {
       .bio {
         padding-right:15px;
         padding-top:5px;
-        font-size:18px;
+        font-size:14px;
         line-height:160%;
       }
     }
