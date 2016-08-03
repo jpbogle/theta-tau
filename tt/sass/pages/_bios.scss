@@ -43,7 +43,7 @@ body {
 }
 
 #background {
-  margin-top:100px;
+  margin-top:110px;
   z-index: -1;
   background-color: rgba(255,255,255,0.7);
   width: 85%;
@@ -54,7 +54,7 @@ body {
   .brother {
     opacity: 1;
     display:inline-block;
-    background-color: blue;
+    //background-color: blue;
     height:250px;
     width: 200px;
     margin: 20px;
@@ -62,7 +62,7 @@ body {
   }
 
   span {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   img {
@@ -101,20 +101,92 @@ body {
   overflow:hidden;
 
   .brother-bio-inner {
-    padding: 40px;
+
     overflow: hidden;
-    img {
-      width: 200px;
-      height: 200px;
+    .top {
+      height:200px;
+
+      background-color: rgba(153,153,153,0.4);
+      img {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+      }
+      .infoblock {
+        margin-left: 230px;
+        padding-top: 10px;
+        .info {
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
+      }
+      .header {
+        height: 50px;
+        margin-left: 230px;
+        margin-right: 80px;
+        border-bottom: 2px #8B0000 solid;
+        .name {
+          padding-top: 13px;
+          font-size: 30px;
+          float: left;
+          color: #8B0000;
+          width:50%;
+        }
+        .icons {
+          height: 100%;
+          //padding-left:20px;
+          padding-top:5px;
+          width:47%;
+          margin-right:3%;
+          text-align: right;
+          float:left;
+          i {
+            margin: 15px;
+            transform: scale(2.5);
+            display: inline-block;
+
+          }
+        }
+      }
     }
-    i {
+    .bottom {
+      padding-left:20px;
+      .bio-title{
+        color: #8B0000;
+        padding-top:10px;
+        padding-bottom:10px;
+        font-size:30px;
+        margin-right: 80px;
+        border-bottom: 2px #8B0000 solid;
+      }
+      .bio {
+        padding-right:15px;
+        padding-top:5px;
+        font-size:18px;
+        line-height:160%;
+      }
+    }
+    .x {
       opacity: 0;
       transition: opacity 1s;
-      float: right;
+      position: absolute;
+      top:25px;
+      right:40px;
       transform: scale(3);
+
     }
-    i:hover {
+    .x:hover {
       transform: scale(3.2);
+      color: #8B0000;
     }
+
   }
+}
+
+.ui-accordion-content-active
+{
+  padding: 0 !important;
+  border-style: none;
+  background-color: rgba(255,255,255,0.5);
+  background-image: none;
 }
