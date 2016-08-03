@@ -50,19 +50,23 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align:center;
-
+  h3 {
+    font-size: 50px;
+    padding:40px;
+  }
   .brother {
     opacity: 1;
     display:inline-block;
     //background-color: blue;
-    height:250px;
     width: 200px;
     margin: 20px;
     vertical-align: top
   }
 
-  span {
+  .name {
+    padding-top:10px;
     font-size: 20px;
+    height:70px;
   }
 
   img {

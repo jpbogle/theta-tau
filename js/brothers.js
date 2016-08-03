@@ -15,8 +15,8 @@ $(document).on('click', '.x', function() {
 });
 
 
-$( document ).ready(function() {
-    $( "#background" ).accordion({
-        collapsible: true
-    });
-});
+// $( document ).ready(function() {
+//     $( "#background" ).accordion({
+//         collapsible: true
+//     });
+// });

@@ -121,20 +121,26 @@ body {
   margin-right: auto;
   text-align: center;
 }
-/* line 54, ../sass/pages/_bios.scss */
+/* line 53, ../sass/pages/_bios.scss */
+#background h3 {
+  font-size: 50px;
+  padding: 40px;
+}
+/* line 57, ../sass/pages/_bios.scss */
 #background .brother {
   opacity: 1;
   display: inline-block;
-  height: 250px;
   width: 200px;
   margin: 20px;
   vertical-align: top;
 }
-/* line 64, ../sass/pages/_bios.scss */
-#background span {
+/* line 66, ../sass/pages/_bios.scss */
+#background .name {
+  padding-top: 10px;
   font-size: 20px;
+  height: 70px;
 }
-/* line 68, ../sass/pages/_bios.scss */
+/* line 72, ../sass/pages/_bios.scss */
 #background img {
   width: 200px;
   height: 200px;
@@ -142,7 +148,7 @@ body {
   border-radius: 50%;
 }
 
-/* line 77, ../sass/pages/_bios.scss */
+/* line 81, ../sass/pages/_bios.scss */
 #brother-bio-background {
   left: 0;
   right: 0;
@@ -157,7 +163,7 @@ body {
   transition: all .5s;
 }
 
-/* line 91, ../sass/pages/_bios.scss */
+/* line 95, ../sass/pages/_bios.scss */
 .brother-bio {
   position: fixed;
   left: 50%;
@@ -170,39 +176,39 @@ body {
   z-index: 6;
   overflow: hidden;
 }
-/* line 103, ../sass/pages/_bios.scss */
+/* line 107, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner {
   overflow: hidden;
 }
-/* line 106, ../sass/pages/_bios.scss */
+/* line 110, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .top {
   height: 200px;
   background-color: rgba(153, 153, 153, 0.4);
 }
-/* line 110, ../sass/pages/_bios.scss */
+/* line 114, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .top img {
   position: absolute;
   width: 200px;
   height: 200px;
 }
-/* line 115, ../sass/pages/_bios.scss */
+/* line 119, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .top .infoblock {
   margin-left: 230px;
   padding-top: 10px;
 }
-/* line 118, ../sass/pages/_bios.scss */
+/* line 122, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .top .infoblock .info {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 123, ../sass/pages/_bios.scss */
+/* line 127, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .top .header {
   height: 50px;
   margin-left: 230px;
   margin-right: 80px;
   border-bottom: 2px #8B0000 solid;
 }
-/* line 128, ../sass/pages/_bios.scss */
+/* line 132, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .top .header .name {
   padding-top: 13px;
   font-size: 30px;
@@ -210,7 +216,7 @@ body {
   color: #8B0000;
   width: 50%;
 }
-/* line 135, ../sass/pages/_bios.scss */
+/* line 139, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .top .header .icons {
   height: 100%;
   padding-top: 5px;
@@ -219,17 +225,17 @@ body {
   text-align: right;
   float: left;
 }
-/* line 143, ../sass/pages/_bios.scss */
+/* line 147, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .top .header .icons i {
   margin: 15px;
   transform: scale(2.5);
   display: inline-block;
 }
-/* line 152, ../sass/pages/_bios.scss */
+/* line 156, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .bottom {
   padding-left: 20px;
 }
-/* line 154, ../sass/pages/_bios.scss */
+/* line 158, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .bottom .bio-title {
   color: #8B0000;
   padding-top: 10px;
@@ -238,14 +244,14 @@ body {
   margin-right: 80px;
   border-bottom: 2px #8B0000 solid;
 }
-/* line 162, ../sass/pages/_bios.scss */
+/* line 166, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .bottom .bio {
   padding-right: 15px;
   padding-top: 5px;
   font-size: 18px;
   line-height: 160%;
 }
-/* line 169, ../sass/pages/_bios.scss */
+/* line 173, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .x {
   opacity: 0;
   transition: opacity 1s;
@@ -254,13 +260,13 @@ body {
   right: 40px;
   transform: scale(3);
 }
-/* line 178, ../sass/pages/_bios.scss */
+/* line 182, ../sass/pages/_bios.scss */
 .brother-bio .brother-bio-inner .x:hover {
   transform: scale(3.2);
   color: #8B0000;
 }
 
-/* line 186, ../sass/pages/_bios.scss */
+/* line 190, ../sass/pages/_bios.scss */
 .ui-accordion-content-active {
   padding: 0 !important;
   border-style: none;
