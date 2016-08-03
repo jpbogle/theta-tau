@@ -46,13 +46,21 @@ body {
   margin-top:110px;
   z-index: -1;
   background-color: rgba(255,255,255,0.7);
+  border-radius:5%;
   width: 85%;
   margin-left: auto;
   margin-right: auto;
   text-align:center;
-  h3 {
+  .class-header {
+    margin-left:auto;
+    margin-right:auto;
+    text-align: left;
     font-size: 50px;
-    padding:40px;
+    padding-bottom:15px;
+    padding-top:20px;
+    border-bottom:3px solid #8B0000;
+    width:90%;
+    letter-spacing: 5px;
   }
   .brother {
     opacity: 1;
