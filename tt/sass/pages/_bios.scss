@@ -45,7 +45,7 @@ body {
 #background {
   margin-top:110px;
   z-index: -1;
-  background-color: rgba(255,255,255,0.65);
+  background-color: rgba(255,255,255,0.8);
   border-radius:5%;
   width: 85%;
   margin-left: auto;
@@ -131,10 +131,14 @@ body {
       .infoblock {
         margin-left: 230px;
         padding-top: 10px;
+        .minor {
+          display:inline;
+          padding-left:15px;
+        }
         .info {
           font-size: 18px;
-          padding-top: 5px;
-          padding-bottom: 5px;
+          padding-top: 7px;
+          padding-bottom: 7px;
         }
       }
       .header {
@@ -181,6 +185,9 @@ body {
         padding-top:5px;
         font-size:14px;
         line-height:160%;
+        p {
+          text-indent:30px;
+        }
       }
     }
     .x {

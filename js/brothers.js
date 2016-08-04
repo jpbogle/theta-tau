@@ -1,6 +1,6 @@
 $(document).on('click', '.brother', function() {
     var bio = "#bio-" + $(this).attr('id');
-    $(bio).css('width','80%');
+    $(bio).css('width','70%');
     var x = $(bio).children().children('i');
     $(x).css('opacity', '1');
     // $(inner).css('opacity', '1');
@@ -14,6 +14,9 @@ $(document).on('click', '.x', function() {
     $('#brother-bio-background, .x').css('opacity', '0');
 });
 
+$( document ).ready(function() {
+    $("i").tooltip();
+});
 
 // $( document ).ready(function() {
 //     $( "#background" ).accordion({
