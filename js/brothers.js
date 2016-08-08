@@ -16,6 +16,7 @@ $(document).on('click', '.x', function() {
 
 $( document ).ready(function() {
     $("i").tooltip();
+    $('img').tooltip();
 });
 
 // $( document ).ready(function() {

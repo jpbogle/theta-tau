@@ -72,10 +72,16 @@ body {
     vertical-align: top
   }
 
-  .name {
+  .name-box {
     padding-top:13px;
-    font-size: 20px;
+
     height:70px;
+    .name{
+      font-size: 20px;
+      padding-bottom:5px;
+    }
+    .hometown {}
+    font-size: 14px;
   }
 
   img {
@@ -165,13 +171,20 @@ body {
             margin: 15px;
             transform: scale(2.5);
             display: inline-block;
-
+          }
+          img {
+            width:70px;
+            height: 30px;
+            position:relative;
+            top:7px;
           }
         }
       }
     }
     .bottom {
       padding-left:20px;
+      overflow:scroll;
+      height:300px;
       .bio-title{
         color: #8B0000;
         padding-top:10px;
