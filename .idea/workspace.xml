@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eee6051-3cb9-4941-9537-30307bd2df1f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/amphibz.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tt/.sass-cache/f1ccf3bd4e5700eff9a91b5a43ff6cddc71076f0/_bios.scssc" afterPath="$PROJECT_DIR$/tt/.sass-cache/f1ccf3bd4e5700eff9a91b5a43ff6cddc71076f0/_bios.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bios.html" afterPath="$PROJECT_DIR$/bios.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/brothers.js" afterPath="$PROJECT_DIR$/js/brothers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tt/sass/pages/_bios.scss" afterPath="$PROJECT_DIR$/tt/sass/pages/_bios.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tt/stylesheets/styles.css" afterPath="$PROJECT_DIR$/tt/stylesheets/styles.css" />
     </list>
     <ignored path="theta-tau.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,8 +76,8 @@
       <file leaf-file-name="bios.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bios.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+            <state relative-caret-position="480">
+              <caret line="60" column="55" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="55" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -404,15 +398,15 @@
       <workItem from="1470253647411" duration="432000" />
       <workItem from="1470254206826" duration="3056000" />
       <workItem from="1470333751733" duration="228000" />
-      <workItem from="1470340310045" duration="11518000" />
+      <workItem from="1470340310045" duration="13223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33090000" />
+    <option name="totallyTimeSpent" value="34795000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="811" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -920,8 +914,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bios.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+        <state relative-caret-position="480">
+          <caret line="60" column="55" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="55" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
