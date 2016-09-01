@@ -16,12 +16,13 @@ offwhite=#EDEAB5
   font-weight: 300;
 
   #screen{
-    z-index: -1;
+    z-index: -100;
     height: 100vh;
     align-items: center;
     display: flex;
   }
   #screen:after{
+    z-index: -100;
     position: absolute;
     left: 0;
     top: 0;
@@ -34,7 +35,7 @@ offwhite=#EDEAB5
   }
 
   #Title{
-    z-index: 2;
+    z-index: -50;
     background-color: rgba(127,127,127,.8);
     /*background-color: #999999;*/
     width: 450px;
@@ -86,7 +87,7 @@ offwhite=#EDEAB5
       padding-top: 7px;
       padding-bottom: 7px;
       font-size: 30px;
-      z-index: 100;
+      z-index: -30;
       position: absolute;
       letter-spacing: 3px;
       border: solid black 2px;
@@ -115,7 +116,7 @@ offwhite=#EDEAB5
       padding-top: 7px;
       padding-bottom: 7px;
       font-size: 30px;
-      z-index: 100;
+      z-index: -20;
       position: absolute;
       letter-spacing: 3px;
       position: absolute;
@@ -144,7 +145,7 @@ offwhite=#EDEAB5
       padding-top: 7px;
       padding-bottom: 7px;
       font-size: 30px;
-      z-index: 3;
+      z-index: -20;
       position: absolute;
       letter-spacing: 1px;
       left: 15%;
@@ -170,13 +171,10 @@ offwhite=#EDEAB5
     -o-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
   }
-  .link:hover {
-    transform: scale(1.03);
-    color: #FFCC33;
-  }
+
 
   .dropdown {
-    z-index: 101;
+    z-index: -15;
     opacity: 0;
     background-color: #999999;
     position: absolute;
@@ -198,10 +196,6 @@ offwhite=#EDEAB5
     display: block;
   }
 
-  .link:hover+div{
-    opacity: 1;
-    transition: 1;
-  }
 
   .dropdown:hover {
     opacity: 1;
@@ -210,4 +204,106 @@ offwhite=#EDEAB5
   .dropdown span:hover {
     color: #e7b000;
   }
+
+  #learn {
+    position: absolute;
+    bottom: 3em;
+    font-size: 25px;
+    color: white;
+    opacity: .5;
+    left: 50%;
+    text-align: center;
+    margin-left: -100px;
+    width: 200px;
+    z-index: -10;
+  }
+}
+
+#slider {
+  height:100vh;
+  width:600px;
+  background-color:red;
+}
+
+
+/* Carousel base class */
+.carousel {
+  height: 600px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 600px;
+  //background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  //bottom:50%;
+  font-size:50px;
+
+}
+
+#feed {
+  height: 500px;
+
+
+}
+
+
+#section-1 {
+  #logo {
+    float:left;
+    width:250px;
+    margin:20px;
+  }
+}
+
+#section-2 {
+  #flag{
+    margin:20px 10px 10px 10px;
+    float:right;
+    width:250px;
+    //border-radius:50%;
+
+  }
+}
+
+#section-3 {
+  max-width:1050px;
+}
+
+#spyce {
+  width: 400px;
+  background-color:rgba(255,255,255,0.9);
+  padding:30px 50px 30px 50px;
+  border-radius:60px;
+  margin-bottom:240px;
+}
+
+.learn {
+  color: #FFCC33;
+  background-color: #8B0000;
+  padding:20px;
+  border-radius:40px;
+  font-size:20px;
+  text-decoration: none;
+  display:block;
+  width:200px;
+  margin-right:auto;
+  margin-left:auto;
+  color:white;
+  margin-top:10px;
 }
