@@ -469,33 +469,26 @@ offwhite=#EDEAB5
   z-index: -10;
 }
 
-/* line 222, ../sass/pages/_landing.scss */
-#slider {
-  height: 100vh;
-  width: 600px;
-  background-color: red;
-}
-
 /* Carousel base class */
-/* line 230, ../sass/pages/_landing.scss */
+/* line 225, ../sass/pages/_landing.scss */
 .carousel {
   height: 600px;
   margin-bottom: 60px;
 }
 
 /* Since positioning the image, we need to help out the caption */
-/* line 235, ../sass/pages/_landing.scss */
+/* line 230, ../sass/pages/_landing.scss */
 .carousel-caption {
   z-index: 10;
 }
 
 /* Declare heights because of positioning of img element */
-/* line 240, ../sass/pages/_landing.scss */
+/* line 235, ../sass/pages/_landing.scss */
 .carousel .item {
   height: 600px;
 }
 
-/* line 244, ../sass/pages/_landing.scss */
+/* line 239, ../sass/pages/_landing.scss */
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
@@ -505,36 +498,36 @@ offwhite=#EDEAB5
   object-fit: cover;
 }
 
-/* line 253, ../sass/pages/_landing.scss */
+/* line 248, ../sass/pages/_landing.scss */
 .carousel-caption {
   font-size: 50px;
 }
 
-/* line 259, ../sass/pages/_landing.scss */
-#feed {
-  height: 500px;
+/* line 254, ../sass/pages/_landing.scss */
+.carousel-indicators {
+  z-index: 1;
 }
 
-/* line 267, ../sass/pages/_landing.scss */
+/* line 260, ../sass/pages/_landing.scss */
 #section-1 #logo {
   float: left;
   width: 250px;
   margin: 20px;
 }
 
-/* line 275, ../sass/pages/_landing.scss */
+/* line 268, ../sass/pages/_landing.scss */
 #section-2 #flag {
   margin: 20px 10px 10px 10px;
   float: right;
   width: 250px;
 }
 
-/* line 284, ../sass/pages/_landing.scss */
+/* line 277, ../sass/pages/_landing.scss */
 #section-3 {
   max-width: 1050px;
 }
 
-/* line 288, ../sass/pages/_landing.scss */
+/* line 281, ../sass/pages/_landing.scss */
 #spyce {
   width: 400px;
   background-color: rgba(255, 255, 255, 0.9);
@@ -543,7 +536,7 @@ offwhite=#EDEAB5
   margin-bottom: 240px;
 }
 
-/* line 296, ../sass/pages/_landing.scss */
+/* line 289, ../sass/pages/_landing.scss */
 .learn {
   color: #FFCC33;
   background-color: #8B0000;
@@ -557,4 +550,47 @@ offwhite=#EDEAB5
   margin-left: auto;
   color: white;
   margin-top: 10px;
+  cursor: pointer;
+}
+
+/* line 306, ../sass/pages/_landing.scss */
+#overlay {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(200, 200, 200, 0.8);
+  position: fixed;
+  z-index: 5;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s;
+}
+
+/* line 320, ../sass/pages/_landing.scss */
+.popup {
+  left: 50%;
+  transform: translate(-50%, -80%);
+  padding: 30px;
+  position: absolute;
+  width: 60%;
+  height: 50%;
+  background-color: white;
+  transition: all 1s;
+  z-index: 5;
+  opacity: 0;
+  -webkit-box-shadow: -15px 10px 71px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -15px 10px 71px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: -15px 10px 71px -13px rgba(0, 0, 0, 0.75);
+}
+/* line 335, ../sass/pages/_landing.scss */
+.popup #spyce-popup {
+  width: 200px;
+  padding: 10px;
+}
+/* line 340, ../sass/pages/_landing.scss */
+.popup #amphibs-popup {
+  width: 400px;
+  padding: 10px;
 }

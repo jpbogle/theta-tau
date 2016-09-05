@@ -219,11 +219,6 @@ offwhite=#EDEAB5
   }
 }
 
-#slider {
-  height:100vh;
-  width:600px;
-  background-color:red;
-}
 
 
 /* Carousel base class */
@@ -256,10 +251,8 @@ offwhite=#EDEAB5
 
 }
 
-#feed {
-  height: 500px;
-
-
+.carousel-indicators {
+  z-index:1;
 }
 
 
@@ -306,4 +299,47 @@ offwhite=#EDEAB5
   margin-left:auto;
   color:white;
   margin-top:10px;
+  cursor:pointer;
 }
+
+
+#overlay{
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(200,200,200,0.8);
+  position: fixed;
+  z-index: 5;
+  text-align: center;
+  opacity:0;
+  visibility: hidden;
+  transition: all .5s;
+}
+
+.popup {
+  left:50%;
+  transform:translate(-50%,-80%);
+  padding:30px;
+  position: absolute;
+  width:60%;
+  height:50%;
+  background-color:white;
+  transition: all 1s;
+  z-index: 5;
+  opacity:0;
+  -webkit-box-shadow: -15px 10px 71px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: -15px 10px 71px -13px rgba(0,0,0,0.75);
+  box-shadow: -15px 10px 71px -13px rgba(0,0,0,0.75);
+
+  #spyce-popup {
+    width: 200px;
+    padding:10px;
+  }
+
+  #amphibs-popup {
+    width: 400px;
+    padding:10px;
+  }
+}
+

@@ -35,6 +35,9 @@ $( document ).ready(function() {
         });
 });
 
+
+
+
 $(document).on('click', '.arrow',function() {
     scrollToElement('#feed', 1500, 0);
 });
@@ -50,4 +53,24 @@ function scrollToElement(selector, time, verticalOffset) {
     }, time);
 };
 
+
+
+$(document).on('click', '.learn', function() {
+
+    var popup = "#popup-" + $(this).attr('id').slice(-1);
+    console.log(popup);
+    $(popup).css('transform','translate(-50%,55%');
+    $(popup).css('opacity','1');
+    // $(inner).css('opacity', '1');
+    $('#overlay').css('visibility', 'visible');
+    $('#overlay').css('opacity', '1');
+});
+
+$(document).on('click', '.popup', function() {
+    $(this).css('transform','translate(-50%,-80%');
+    $(this).css('opacity','0');
+    // $(inner).css('opacity', '1');
+    $('#overlay').css('visibility', 'hidden');
+    $('#overlay').css('opacity', '0');
+});
 
