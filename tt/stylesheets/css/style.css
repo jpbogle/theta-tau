@@ -320,7 +320,7 @@ Secondary Fixed Navigation
   right: 5%;
   bottom: 20px;
   border-radius: 0.25em;
-  background: rgba(3, 13, 24, 0.96);
+  /*background: rgba(3, 13, 24, 0.96);*/
   visibility: hidden;
   z-index: 1;
   -webkit-backface-visibility: hidden;
@@ -383,7 +383,7 @@ Secondary Fixed Navigation
     -o-transform: scale(1);
     transform: scale(1);
     text-align: center;
-    background-color: transparent;
+    /*background-color: transparent;*/
   }
   .cd-secondary-nav li {
     display: inline-block;
