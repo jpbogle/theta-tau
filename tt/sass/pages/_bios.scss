@@ -11,6 +11,7 @@
   #logo {
     height: 60px;
     display:inline-block;
+
   }
   #titles{
     left:10px;
@@ -552,7 +553,11 @@
   #cd-logo {
     position: fixed;
     float: left;
-    margin: 10px 0 0 2%
+    margin: 10px 0 0 2%;
+
+    a{
+      text-decoration: none;
+    }
   }
   #cd-logo img {
     display: inline-block;

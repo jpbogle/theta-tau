@@ -55,7 +55,7 @@ offwhite=#EDEAB5
 
 
   #logo {
-    width:60px;
+    width: 60px;
     height: 87px;
     padding-right: 10px;
   }
@@ -259,18 +259,48 @@ offwhite=#EDEAB5
 #section-1 {
   #logo {
     float:left;
-    width:250px;
-    margin:20px;
+    width:100px;
+    margin:10px;
+  }
+  @media only screen and (min-width: 768px) {
+    #logo {
+      float:left;
+      width:220px;
+      margin:20px;
+    }
+  }
+  @media only screen and (min-width: 1170px) {
+    #logo {
+      float:left;
+      width:220px;
+      margin:20px;
+    }
   }
 }
 
 #section-2 {
   #flag{
-    margin:20px 10px 10px 10px;
+    margin:10px 5px 5px 5px;
     float:right;
-    width:250px;
+    width:100px;
     //border-radius:50%;
+  }
 
+  @media only screen and (min-width: 768px) {
+    #flag{
+      margin:20px 10px 10px 10px;
+      float:right;
+      width:250px;
+      //border-radius:50%;
+    }
+  }
+  @media only screen and (min-width: 1170px) {
+    #flag{
+      margin:20px 10px 10px 10px;
+      float:right;
+      width:250px;
+      //border-radius:50%;
+    }
   }
 }
 
